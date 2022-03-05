@@ -1,0 +1,30 @@
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.exe
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.deps.json
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.runtimeconfig.json
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.dll
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.pdb
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.csproj.AssemblyReference.cache
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.AssemblyInfoInputs.cache
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.AssemblyInfo.cs
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.csproj.CoreCompileInputs.cache
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.dll
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\refint\HW3Methods.dll
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.pdb
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.genruntimeconfig.cache
+C:\Users\Альта-Строй\source\repos\HW3Methods\HW3Methods\obj\Debug\net6.0\ref\HW3Methods.dll
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.csproj.AssemblyReference.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.AssemblyInfoInputs.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.AssemblyInfo.cs
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.csproj.CoreCompileInputs.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.dll
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\refint\HW3Methods.dll
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.pdb
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.exe
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.deps.json
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.runtimeconfig.json
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.dll
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\bin\Debug\net6.0\HW3Methods.pdb
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\HW3Methods.genruntimeconfig.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-3Cycles\HW3Methods\HW3Methods\obj\Debug\net6.0\ref\HW3Methods.dll
