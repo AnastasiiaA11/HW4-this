@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW2Methods
 {
+
     static class HomeworkIfElse
     {
         public static int СomparisonNumber(int A, int B)
@@ -27,9 +28,9 @@ namespace HW2Methods
             return result;
 
         }
-    }
-    static class HomeworkIfElseSecond
-    {
+
+
+
         public static string BelongsQuarter(int X, int Y)
         {
             string result;
@@ -53,16 +54,66 @@ namespace HW2Methods
 
             return result;
         }
-    }
-    static class HomeworkIfElseFive
-    {
+
+
+
+        public static void PrintToConsoleInAscendingOrder(int A, int B, int C)
+        {
+            if (A < B && A < C)
+            {
+                Console.WriteLine(A);
+                Console.WriteLine(Math.Min(B, C));
+                Console.WriteLine(Math.Max(B, C));
+            }
+            if (B < A && B < C)
+            {
+                Console.WriteLine(B);
+                Console.WriteLine(Math.Min(A, C));
+                Console.WriteLine(Math.Max(A, C));
+            }
+            if (C < B && C < A)
+            {
+                Console.WriteLine(C);
+                Console.WriteLine(Math.Min(A, B));
+                Console.WriteLine(Math.Max(A, B));
+            }
+        }
+
+
+        public static string PrintToTheConsoleTheSolutionOfTheQuadraticEquation(int A, int B, int C)
+        {
+
+            double D = ((B * B) - (4 * A * C));
+
+            if (D > 0)
+
+            {
+
+                return $"result1 = {(-B + Math.Sqrt(D)) / (2 * A)}; result2 = {(-B - Math.Sqrt(D)) / (2 * A)}";
+
+            }
+            else if (D == 0)
+            {
+                return $"X = {((double)(-B)) / ((2 * A))}";
+
+            }
+            else if (D < 0)
+            {
+                return "Ответ: нет корней";
+            }
+
+        }
+
+
+
         public static string WritingInWords(int number)
         {
             int dozens = number / 10; //десятки
             int units = number % 10; // единицы
-            string firstWord="";
-            string secondWord="";
+            string firstWord = "";
+            string secondWord = "";
             string result;
+
             if (dozens >= 2 && dozens < 10)
             {
                 switch (dozens) //Конструкция switch/case оценивает некоторое выражение и сравнивает его значение с набором значений. И при совпадении значений выполняет определенный код.
@@ -115,10 +166,7 @@ namespace HW2Methods
             return result;
         }
     }
-
-
-
-
 }
+
 
 

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Альта-Строй\\source\\repos\\HW2Methods\\HW2Methods\\HW2Methods.csproj",
+      "projectUniqueName": "C:\\Users\\Альта-Строй\\source\\repos\\ProjectC#\\HW4 this\\HW4-2Ef.Else\\HW2Methods\\HW2Methods\\HW2Methods.csproj",
       "projectName": "HW2Methods",
-      "projectPath": "C:\\Users\\Альта-Строй\\source\\repos\\HW2Methods\\HW2Methods\\HW2Methods.csproj",
+      "projectPath": "C:\\Users\\Альта-Строй\\source\\repos\\ProjectC#\\HW4 this\\HW4-2Ef.Else\\HW2Methods\\HW2Methods\\HW2Methods.csproj",
       "packagesPath": "C:\\Users\\Альта-Строй\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Альта-Строй\\source\\repos\\HW2Methods\\HW2Methods\\obj\\",
+      "outputPath": "C:\\Users\\Альта-Строй\\source\\repos\\ProjectC#\\HW4 this\\HW4-2Ef.Else\\HW2Methods\\HW2Methods\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

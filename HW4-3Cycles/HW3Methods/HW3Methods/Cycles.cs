@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW3Methods
 {
-    internal class HomeworkCyclesOne
+    internal class HomeworkCycles
     {
         public static double SquaringNumber(int A, int B)
         {
@@ -32,9 +32,31 @@ namespace HW3Methods
             }
 
         }
-    }
-    internal class HomeworkCyclesTree
-    {
+    
+    
+    
+        public static int OutputAllNumbers(int A)
+        {
+            int result = 0;
+            if (A <= 0)
+            {
+                int NumberNol=0;
+                return NumberNol;
+            }
+
+            for (int i = 1; i <= 1000; i++)
+            {
+                if (i % A == 0)
+                {
+                    result=i;
+                    
+                }
+            }
+           return result;
+        }
+    
+    
+    
         public static int FindTheNumberOfPositiveIntegers(int numberA)
         {
             int z = 0;
@@ -46,9 +68,9 @@ namespace HW3Methods
             return z;
 
         }
-    }
-    internal class HomeworkCyclesFour
-    {
+    
+  
+    
         public static int OutputTheLargestDivisor(int numberOne)
         {
             int maximumDivisor = 0;
@@ -63,10 +85,10 @@ namespace HW3Methods
             }
            return maximumDivisor;
         }
-    }
     
-    internal class HomeworkCyclesFive
-    {
+    
+    
+    
         public static int GetTheSumOfAllNumbersinaGroup(int numberOneA, int numberOneB)
         {
             int z = 0;
@@ -94,9 +116,9 @@ namespace HW3Methods
             }
             return z;
         }
-    }
-    internal class HomeworkCyclesSix
-    {
+    
+    
+    
         public static int PrintTheNthNumberOfTheFibonacciSeries(int N)
         {
             int oneNumber = 1;
@@ -125,10 +147,10 @@ namespace HW3Methods
             }
             return sum;
         }
-    }
+    
 
-    internal class HomeworkCyclesSeven
-    {
+    
+    
         public static int FindTheGreatestComminDivisor(int NumberM,int NumberQ)
         {
             while (NumberM != NumberQ)
@@ -146,9 +168,9 @@ namespace HW3Methods
             int nod = NumberQ;
             return nod;
         }
-    }
-    internal class HomeworkCyclesEight
-    {
+    
+    
+    
         public static int FindaNumberUsingTheHalfDivisionMethod(int enteredNumber)
         {
             int middle = 0;
@@ -170,9 +192,9 @@ namespace HW3Methods
             while (Math.Pow(middle, 3) != enteredNumber);
             return middle;
         }
-    }
-    internal class HomeworkCyclesNine
-    {
+    
+    
+    
         public static int FindNumberOfOddDigits(int NumberEntered)
         {
             int numberOdd = 0;
@@ -186,9 +208,9 @@ namespace HW3Methods
             }
             return numberOdd; 
         }
-    }
-       internal class HomeworkCyclesTen
-    {
+    
+       
+    
         public static int FindaNumberThatIsaMirrorImageOfaSequencefDigitsOfaGivenNumber(int NumberEnteredUser)
         {
             int z = 0;
@@ -204,11 +226,13 @@ namespace HW3Methods
             }
             return z;
         }
-    }
-    internal class HomeworkCyclesTwelve
-    {
-        public static void TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbers(int NumberEnteredA, int NumberEnteredB)
+    
+    
+    
+        public static string TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbers(int NumberEnteredA, int NumberEnteredB)
         {
+            string one="да";
+            string two = "Нет";
             bool check = false;
 
             while (NumberEnteredA != 0)
@@ -228,15 +252,14 @@ namespace HW3Methods
             if (check == true)
                 
             {
-                Console.WriteLine("");
+                return one;
             }
-            
+           
+
             else
             {
-                Console.WriteLine("Нет");
+                return two;
             }
-
-
         }
     }
 }
