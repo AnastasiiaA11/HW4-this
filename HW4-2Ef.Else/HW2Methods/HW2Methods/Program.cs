@@ -26,8 +26,8 @@ Console.WriteLine("Введите число B: ");
 int NumberTwo = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число C: ");
 int NumberTree = Convert.ToInt32(Console.ReadLine());
-HomeworkIfElse.PrintToConsoleInAscendingOrder(NumberOne,NumberTwo,NumberTree);
-Console.WriteLine();
+int[] IO=HomeworkIfElse.PrintToConsoleInAscendingOrder();
+HomeworkIfElse.Write(IO);
 
 
 Console.WriteLine("Четвертое задание. Пользователь вводит 3 числа (A, B и С). Выведите в консоль решение(значения X) квадратного уравнения стандартного вида, где AX2+BX+C=0.");

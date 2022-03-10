@@ -10,37 +10,29 @@ namespace HW3Methods
     {
         public static double SquaringNumber(int A, int B)
         {
-            double C = 1;
-            if (B >= 0)
+            if (A < 0 && B < 0)
             {
-                for (int i = 0; i < B; i++)
-                {
-                    C = C * A;
-                }
-                return C;
+                throw new Exception("");
             }
-            else
-            {
+            double C = 1;
+                      
                 for (int i = 0; i < Math.Abs(B); i++)
 
                 {
                     C = C * A;
                 }
-
-                C = 1 / C;
+             
                 return  C;
-            }
-
         }
     
     
     
-        public static int OutputAllNumbers(int A)
+        public static string OutputAllNumbers(int A)
         {
-            int result = 0;
+            string result = "";
             if (A <= 0)
             {
-                int NumberNol=0;
+                string NumberNol="0";
                 return NumberNol;
             }
 
@@ -48,7 +40,7 @@ namespace HW3Methods
             {
                 if (i % A == 0)
                 {
-                    result=i;
+                    result=result+i+" ";
                     
                 }
             }
@@ -221,15 +213,13 @@ namespace HW3Methods
                 z *= 10;
                 z += tmp;
                 NumberEnteredUser /= 10;
-
-
             }
             return z;
         }
     
     
     
-        public static string TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbers(int NumberEnteredA, int NumberEnteredB)
+        public static bool TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbers(int NumberEnteredA, int NumberEnteredB)
         {
             string one="да";
             string two = "Нет";
@@ -252,13 +242,11 @@ namespace HW3Methods
             if (check == true)
                 
             {
-                return one;
-            }
-           
-
+                return true;
+            }           
             else
             {
-                return two;
+                return false;
             }
         }
     }

@@ -57,26 +57,28 @@ namespace HW2Methods
 
 
 
-        public static void PrintToConsoleInAscendingOrder(int A, int B, int C)
+        public static int[] PrintToConsoleInAscendingOrder()
         {
-            if (A < B && A < C)
+            int[] result = { 8, 5, 3 };
+            for (int i = 0; i < result.Length; i += 1)
             {
-                Console.WriteLine(A);
-                Console.WriteLine(Math.Min(B, C));
-                Console.WriteLine(Math.Max(B, C));
+                for (int j = 1 + i; j < result.Length; j++)
+                    if (result[j] < result[i])
+                    {
+                        int c = result[i];
+                        result[i] = result[j];
+                        result[j] = c;
+                    }
             }
-            if (B < A && B < C)
+            return result;
+        }
+        public static void Write(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine(B);
-                Console.WriteLine(Math.Min(A, C));
-                Console.WriteLine(Math.Max(A, C));
+                Console.Write($"{array[i]} ");
             }
-            if (C < B && C < A)
-            {
-                Console.WriteLine(C);
-                Console.WriteLine(Math.Min(A, B));
-                Console.WriteLine(Math.Max(A, B));
-            }
+            Console.WriteLine();
         }
 
 

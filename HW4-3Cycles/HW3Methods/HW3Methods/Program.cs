@@ -13,7 +13,7 @@ Console.WriteLine(AC);
 Console.WriteLine("Второе задание.Пользователь вводит 1 число (A). Вывести все числа от 1 до 1000, которые делятся на A.");
 Console.WriteLine("Введите число A");
 int NumberOneNumber = Convert.ToInt32(Console.ReadLine());
-int AT=HomeworkCycles.OutputAllNumbers(NumberOneNumber);
+string AT=HomeworkCycles.OutputAllNumbers(NumberOneNumber);
 Console.WriteLine(AT);
 
 
