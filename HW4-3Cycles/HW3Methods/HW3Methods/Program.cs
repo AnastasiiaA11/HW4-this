@@ -5,7 +5,7 @@ Console.WriteLine("Введите число которое хотите воз�
 int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите степень");
 int B = Convert.ToInt32(Console.ReadLine());
-double AC=HomeworkCycles.SquaringNumber(A, B);
+int AC=HomeworkCycles.SquaringNumber(A, B);
 Console.WriteLine(AC);
 
 

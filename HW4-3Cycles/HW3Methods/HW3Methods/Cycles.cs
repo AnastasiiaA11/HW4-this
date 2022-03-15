@@ -8,13 +8,13 @@ namespace HW3Methods
 {
     public static class HomeworkCycles
     {
-        public static double SquaringNumber(int A, int B)
+        public static int SquaringNumber(int A, int B)
         {
             if (A < 0 && B < 0)
             {
                 throw new Exception("");
             }
-            double C = 1;
+            int C = 1;
                       
                 for (int i = 0; i < Math.Abs(B); i++)
 
@@ -32,8 +32,7 @@ namespace HW3Methods
             string result = "";
             if (A <= 0)
             {
-                string NumberNol="0";
-                return NumberNol;
+                throw new Exception("");
             }
 
             for (int i = 1; i <= 1000; i++)
@@ -58,7 +57,6 @@ namespace HW3Methods
 
             }
             return z;
-
         }
     
   
@@ -84,6 +82,11 @@ namespace HW3Methods
         public static int GetTheSumOfAllNumbersinaGroup(int numberOneA, int numberOneB)
         {
             int z = 0;
+
+            if (numberOneA > numberOneB)
+            {
+                throw new Exception("");
+            }
 
             if (numberOneA < numberOneB)
             {
@@ -115,9 +118,14 @@ namespace HW3Methods
         {
             int oneNumber = 1;
             int twoNumber = 1;
-            int sum = 0;
-            int tmp = 0;
+            int sum = 1;
+            
             int i = 3;
+
+            if (N<=0)
+            {
+                throw new Exception("");
+            }
             while (N >= i)
             {
                 sum = oneNumber + twoNumber;
@@ -127,15 +135,15 @@ namespace HW3Methods
             }
             if (N == 1)
             {
-                tmp = oneNumber;
+                int tmp = oneNumber;
             }
             else if (N == 2)
             {
-                tmp = twoNumber;
+                int tmp = twoNumber;
             }
             else if (N >= 3)
             {
-                tmp = sum;
+                int tmp = sum;
             }
             return sum;
         }
