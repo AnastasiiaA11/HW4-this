@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW3Methods
 {
-    internal class HomeworkCycles
+    public static class HomeworkCycles
     {
         public static double SquaringNumber(int A, int B)
         {

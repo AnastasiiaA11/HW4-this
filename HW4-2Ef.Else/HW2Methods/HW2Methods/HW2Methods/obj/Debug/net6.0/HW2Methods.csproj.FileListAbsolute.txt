@@ -1,0 +1,15 @@
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\bin\Debug\net6.0\HW2Methods.exe
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\bin\Debug\net6.0\HW2Methods.deps.json
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\bin\Debug\net6.0\HW2Methods.runtimeconfig.json
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\bin\Debug\net6.0\HW2Methods.dll
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\bin\Debug\net6.0\HW2Methods.pdb
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.csproj.AssemblyReference.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.AssemblyInfoInputs.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.AssemblyInfo.cs
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.csproj.CoreCompileInputs.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.dll
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\refint\HW2Methods.dll
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.pdb
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\HW2Methods.genruntimeconfig.cache
+C:\Users\Альта-Строй\source\repos\ProjectC#\HW4 this\HW4-2Ef.Else\HW2Methods\HW2Methods\HW2Methods\obj\Debug\net6.0\ref\HW2Methods.dll
