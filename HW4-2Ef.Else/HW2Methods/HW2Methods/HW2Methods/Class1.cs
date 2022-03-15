@@ -56,9 +56,11 @@ namespace HW2Methods
 
 
 
-        public static int[] PrintToConsoleInAscendingOrder()
+        public static int[] PrintToConsoleInAscendingOrder(int A, int B, int C)
         {
-            int[] result = { 8, 5, 3 };
+            int[] result = new int[] { A, B, C };
+            
+            
             for (int i = 0; i < result.Length; i += 1)
             {
                 for (int j = 1 + i; j < result.Length; j++)
@@ -95,7 +97,7 @@ namespace HW2Methods
             }
             else if (D == 0)
             {
-                return $"X = {((double)(-B)) / ((2 * A))}";
+                return $"X = {(double)((-B)) / ((2 * A))}";
 
             }
             else if (D < 0)
@@ -114,6 +116,11 @@ namespace HW2Methods
             string firstWord = "";
             string secondWord = "";
             string result;
+
+            if (number < 10 || number > 99)
+            {
+                throw new Exception("");
+            }
 
             if (dozens >= 2 && dozens < 10)
             {
@@ -141,7 +148,7 @@ namespace HW2Methods
                     case 8: secondWord = "восемь"; break;
                     case 9: secondWord = "девять"; break;
                 }
-                result = number + " - " + firstWord + " " + secondWord;
+                result = firstWord + " " + secondWord;
             }
             else if (dozens == 1)
             {
