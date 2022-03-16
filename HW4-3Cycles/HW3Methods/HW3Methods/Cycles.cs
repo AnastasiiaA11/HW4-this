@@ -153,7 +153,15 @@ namespace HW3Methods
     
         public static int FindTheGreatestComminDivisor(int NumberM,int NumberQ)
         {
-            while (NumberM != NumberQ)
+            if (NumberM<0 && NumberQ<0)
+            {
+                throw new Exception("");
+            }
+            if (NumberM == 0 && NumberQ == 0)
+            {
+                throw new Exception("");
+            }
+                while (NumberM != NumberQ)
             {
                 if (NumberM > NumberQ)
                 {
@@ -168,19 +176,22 @@ namespace HW3Methods
             int nod = NumberQ;
             return nod;
         }
-    
-    
-    
-        public static int FindaNumberUsingTheHalfDivisionMethod(int enteredNumber)
+           
+        public static int FindaNumberUsingTheHalfDivisionMethod(int enteredNumber) //тут ошибка//
         {
             int middle = 0;
-            int numberRight = 0;
-            int numberLeft = enteredNumber;
+            int numberRight = enteredNumber;
+            int numberLeft = 0;
+            
+            if(enteredNumber <= 0)
+            {
+                throw new Exception("");
+            }
 
-            do
+            while (Math.Pow(middle, 3) != enteredNumber)
             {
                 middle = (numberRight + numberLeft) / 2;
-                if (Math.Pow(middle, 3) < middle)
+                if (Math.Pow(middle, 3) < enteredNumber)
                 {
                     numberRight = middle;
                 }
@@ -188,8 +199,9 @@ namespace HW3Methods
                 {
                     numberLeft = middle;
                 }
+
             }
-            while (Math.Pow(middle, 3) != enteredNumber);
+            
             return middle;
         }
     
@@ -198,7 +210,7 @@ namespace HW3Methods
         public static int FindNumberOfOddDigits(int NumberEntered)
         {
             int numberOdd = 0;
-
+           
             for (int i = 1; i <= NumberEntered; i++)
             {
                 if (i % 2 == 1)
@@ -215,6 +227,10 @@ namespace HW3Methods
         {
             int z = 0;
             int tmp;
+            if (NumberEnteredUser <= 0)
+            {
+                throw new Exception("");
+            }
             while (NumberEnteredUser != 0)
             {
                 tmp = NumberEnteredUser % 10;
@@ -224,38 +240,108 @@ namespace HW3Methods
             }
             return z;
         }
-    
-    
-    
+
+        public static int[] OutputNumbersInTheRange(int N)
+        {
+            if (N <= 0)
+            {
+                throw new Exception("");
+            }
+
+            int sumOdd = 0;
+            int sumEven = 0;
+            int length = 0;
+
+            for (int i = 1; i <= N; i++)
+            {
+                int j = i;
+
+                while (j != 0)
+                {
+                    int tmp = j % 10;
+                    if (tmp % 2 == 1)
+                    {
+                        sumOdd += tmp;
+                    }
+                    else
+                    {
+                        sumEven += tmp;
+                    }
+                    j = j / 10;
+                }
+                if (sumEven > sumOdd)
+                {
+                    length++;
+                }
+                sumOdd = 0;
+                sumEven = 0;
+            }
+            int[] result = new int[length];
+            int ind = 0;
+            for (int i = 1; i <= N; i++)
+            {
+                int j = i;
+
+                while (j != 0)
+                {
+                    int tmp = j % 10;
+                    if (tmp % 2 == 1)
+                    {
+                        sumOdd += tmp;
+                    }
+                    else
+                    {
+                        sumEven += tmp;
+                    }
+                    j /= 10;
+                }
+                if (sumEven > sumOdd)
+                {
+                    result[ind] = i;
+                    ind++;
+                }
+                sumOdd = 0;
+                sumEven = 0;
+            }
+
+            return result;
+        }
+
         public static bool TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbers(int NumberEnteredA, int NumberEnteredB)
         {
-            string one="да";
-            string two = "Нет";
-            bool check = false;
+
+            bool res = false;
+
+            if (NumberEnteredA < 0 || NumberEnteredB<0)
+            {
+                throw new Exception("");
+            }
 
             while (NumberEnteredA != 0)
             {
-                int tmp = NumberEnteredA % 10;
-                while (NumberEnteredB != 0)
+                int figureA = NumberEnteredA % 10;
+                int tmpB = NumberEnteredB;
+                while (tmpB != 0)
                 {
-                    int introducedVariable = NumberEnteredB % 10;
-                    if (tmp == introducedVariable)
+                    int figureB = tmpB % 10;
+                    if (figureA == figureB)
                     {
-                        check = true;
+                        res = true;
+                        break;
                     }
-                    NumberEnteredB = NumberEnteredB / 10;
+                    tmpB /= 10;
                 }
-                NumberEnteredA = NumberEnteredA / 10;
+                NumberEnteredA /= 10;
             }
-            if (check == true)
-                
+            return res;
+        }
+        public static void Write(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
             {
-                return true;
-            }           
-            else
-            {
-                return false;
+                Console.Write($"{array[i]} ");
             }
+            Console.WriteLine();
         }
     }
 }

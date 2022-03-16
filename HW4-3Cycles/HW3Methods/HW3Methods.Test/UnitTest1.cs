@@ -87,9 +87,94 @@ namespace HW3Methods.Test
 
         [TestCase(0)]
         [TestCase(-2)]
-        public void PrintTheNthNumberOfTheFibonacciSeriesTest_ThenNlessZero(int N)
+        public void PrintTheNthNumberOfTheFibonacciSeriesTest_ThenNlessZero_ShouldThrowException(int N)
         {
             Assert.Throws<Exception>(() => HomeworkCycles.PrintTheNthNumberOfTheFibonacciSeries(N));
+        }
+
+        [TestCase(30,18,6)]
+        [TestCase(15,3,3)]
+        [TestCase(50,15,5)]
+        public void FindTheGreatestComminDivisorTest(int NumberM, int NumberQ, int expected)
+        {
+            int actual= HomeworkCycles.FindTheGreatestComminDivisor(NumberM, NumberQ);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestCase(0,0)]
+        [TestCase(-1,2)]
+        [TestCase(2,0)]
+        public void FindTheGreatestComminDivisorTest_ThenNumberZero_ShouldThrowException(int NumberM, int NumberQ)
+        {
+            Assert.Throws<Exception>(() => HomeworkCycles.FindTheGreatestComminDivisor(NumberM,NumberQ));
+        }
+
+        [TestCase(64,4)]
+        [TestCase(343,7)]
+        [TestCase(729,9)]
+        public void FindaNumberUsingTheHalfDivisionMethodTest(int enteredNumber,int expected)
+        {
+            int actual = HomeworkCycles.FindaNumberUsingTheHalfDivisionMethod(enteredNumber);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestCase(0)]
+        [TestCase(-8)]       
+        public void FindaNumberUsingTheHalfDivisionMethodTest_ThenEnteredNumberLesszero(int enteredNumber)
+        {
+            Assert.Throws<Exception>(() => HomeworkCycles.FindaNumberUsingTheHalfDivisionMethod(enteredNumber));
+        }
+
+        [TestCase(38,19)]
+        [TestCase(91,46)]
+        [TestCase(-69,0)]
+        public void FindNumberOfOddDigitsTest(int NumberEntered, int expected)
+        {
+            int actual = HomeworkCycles.FindNumberOfOddDigits(NumberEntered);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestCase(596,695)]
+        [TestCase(15,51)]
+        [TestCase(16975,57961)]
+        public void FindaNumberThatIsaMirrorImageOfaSequencefDigitsOfaGivenNumberTest(int NumberEnteredUser, int expected)
+        {
+            int actual = HomeworkCycles.FindaNumberThatIsaMirrorImageOfaSequencefDigitsOfaGivenNumber(NumberEnteredUser);
+             Assert.AreEqual(expected, actual);
+        }
+        [TestCase(0)]
+        [TestCase(-100)]     
+        public void FindaNumberThatIsaMirrorImageOfaSequencefDigitsOfaGivenNumberTest_NumberEnteredUserNotBeLessZero(int NumberEnteredUser)
+        {
+            Assert.Throws<Exception>(() => HomeworkCycles.FindaNumberThatIsaMirrorImageOfaSequencefDigitsOfaGivenNumber(NumberEnteredUser));
+        }
+
+        [TestCase(10, new int[] { 2, 4, 6, 8 })]
+        [TestCase(5, new int[] {2,4})]
+        public void OutputNumbersInTheRangeTest(int N, int[] expected)         {
+            int[] actual = HomeworkCycles.OutputNumbersInTheRange(N);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestCase(0)]
+        [TestCase(-100)]
+        public void OutputNumbersInTheRangeTest_NEnteredUserNotBeLessZero(int N)
+        {
+            Assert.Throws<Exception>(() => HomeworkCycles.OutputNumbersInTheRange(N));
+        }
+
+        [TestCase(589, 123658, true)]
+        [TestCase(007, 555, false)]
+        public void TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbersTest(int NumberEnteredA, int NumberEnteredB, bool expected)
+        {
+            bool actual = HomeworkCycles.TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbers(NumberEnteredA, NumberEnteredB);
+            Assert.AreEqual(expected, actual);
+        }
+       
+        [TestCase(-2,23)]
+        public void TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbersTest_EnteredUserNotBeLessZero(int NumberEnteredA, int NumberEnteredB)
+        {
+            Assert.Throws<Exception>(() => HomeworkCycles.TellMeIfThereAreTheSameDigitsInTheSpellingOfTwoNumbers(NumberEnteredA, NumberEnteredB));
         }
     }
 }

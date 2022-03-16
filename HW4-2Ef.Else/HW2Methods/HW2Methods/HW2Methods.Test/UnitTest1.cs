@@ -36,9 +36,8 @@ namespace HW2Methods.Test
         }
 
         [TestCase(2,9,1, "result1 = -0,1139990636706174; result2 = -4,386000936329383")]
-        [TestCase(5,20,1, "Ответ: нет корней")]
-        //[TestCase()]
-        //[TestCase()]
+        [TestCase(2,1,8, "Ответ: нет корней")]
+        [TestCase(1,6,9,"X = -3")]
         public void PrintToTheConsoleTheSolutionOfTheQuadraticEquationTest(int A, int B, int C,string expected)
         {
             string actual = HomeworkIfElse.PrintToTheConsoleTheSolutionOfTheQuadraticEquation(A, B, C);
